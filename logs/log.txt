@@ -1,0 +1,2 @@
+2017-01-03 14:23:28 | Logs Cleared: by User ID 1
+2017-01-03 14:24:38 | Login: andy logged in.
