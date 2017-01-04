@@ -10,7 +10,8 @@ defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 // echo "<script>console.log(DS);</script>";
 
 defined('SITE_ROOT') ? null : 
-	define('SITE_ROOT', DS.'Users'.DS.'andy'.DS.'Desktop'.DS.'www'.DS.'php_oop_photo_gallery');
+	define('SITE_ROOT', 
+		DS.'Users'.DS.'andy'.DS.'Desktop'.DS.'www'.DS.'php_oop_photo_gallery');
 
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
 
