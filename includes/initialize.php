@@ -10,7 +10,7 @@ defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 // echo "<script>console.log(DS);</script>";
 
 defined('SITE_ROOT') ? null : 
-	define('SITE_ROOT', DS.'Users'.DS.'andy'.DS.'Desktop'.DS.'www'.DS.'gallery');
+	define('SITE_ROOT', DS.'Users'.DS.'andy'.DS.'Desktop'.DS.'www'.DS.'php_oop_photo_gallery');
 
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
 
@@ -27,5 +27,6 @@ require_once(LIB_PATH.DS.'database_object.php');
 // load database-related classes
 require_once(LIB_PATH.DS.'user.php');
 require_once(LIB_PATH.DS.'photograph.php');
+require_once(LIB_PATH.DS.'comment.php');
 
 ?>

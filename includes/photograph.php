@@ -116,6 +116,8 @@ class Photograph extends DatabaseObject {
 		}
 	}
 
+
+
 	public function image_path() {
 	  return $this->upload_dir.DS.$this->filename;
 	}
@@ -130,6 +132,10 @@ class Photograph extends DatabaseObject {
 			$size_mb = round($this->size/1048576, 1);
 			return "{$size_mb} MB";
 		}
+	}
+
+	public function comments() {
+		return Comment::find_comments_on($this->id);
 	}
 	
 	
